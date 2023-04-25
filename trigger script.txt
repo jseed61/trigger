@@ -96,7 +96,7 @@ end
 end
 end)
 Mouse.KeyDown:connect(function(key)
-if key == "z" then
+if key == "k" then
 if head == false then
 getgenv().head = true
 Notify("hey", "you got some Head", 1.5)
